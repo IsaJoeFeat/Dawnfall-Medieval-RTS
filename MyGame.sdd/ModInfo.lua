@@ -1,9 +1,9 @@
 local modinfo = {
-	name = "Example game",
-	shortname = "EG",
-	game = "Example Game",
-	shortgame = "EG",
-	description = "A basic spring game",
+	name = "My Game",
+	shortname = "MG",
+	game = "My Game",
+	shortgame = "MG",
+	description = "Yo mama",
 	version = "v0.1",
 	modtype = 1,
 
