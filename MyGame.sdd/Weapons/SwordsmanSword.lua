@@ -1,11 +1,11 @@
 local weaponName = "SwordsmanSword"
 weaponDef = {
-	weaponType              = "Melee",
+	weaponType              = "LaserCannon",
 	name                    = "Shortsword",
 	beamlaser               = 0,
 	--physics / aiming--
 	duration                = 0.018,
-	 weaponVelocity         = 500,
+	 weaponVelocity         = 1000,
 	lineOfSight             = true,
 	minIntensity            = 1,      
 	range                   = 50,
@@ -19,7 +19,7 @@ weaponDef = {
 	damage                  = {
 		default = 11.3, --11.3    
 		},
-	areaOfEffect            = 0.50,
+	areaOfEffect            = 10,
 	craterBoost             = 0,
 	craterMult              = 0,
 	--apperance--	
