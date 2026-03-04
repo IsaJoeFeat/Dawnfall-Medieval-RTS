@@ -22,8 +22,8 @@ BuildPic = "filename.png",
     Upright = 1,
 	maxWaterDepth = 4,
 --Energy and metal related
-    BuildCostEnergy = 1550,
-    BuildCostMetal = 620,
+    BuildCostEnergy = 10,
+    BuildCostMetal = 20,
     Buildtime = 620, 
 --Size and Abilites
    MaxSlope = 33,
@@ -49,6 +49,7 @@ buildoptions =
 	{
 	[[constructor]],
 	[[stumpy]],
+	[[swordsman]],
 	[[flare]],
 	[[duron]],
 	},
