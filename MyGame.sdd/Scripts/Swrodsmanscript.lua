@@ -60,21 +60,15 @@ end
 
 ----aimining & fire weapon
 function script.AimFromWeapon1() 
-	return Turret
+	return Base
 	
 end
 
 function script.QueryWeapon1() 
-	return Flare 
+	return Base
 end
 
 function script.AimWeapon1( heading, pitch )
-	Signal(SIG_AIM)
-    SetSignalMask(SIG_AIM)
-    Turn(Turret, y_axis, heading, aimSpeed)
-    Turn(TurretMuzzle, x_axis, -pitch, aimSpeed)
-    WaitForTurn(Turret, y_axis)
-	StartThread(RestoreAfterDelay)
     return true
 end
 
