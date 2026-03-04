@@ -9,7 +9,7 @@ local unitDef  =  {
     Side = "Beefys",
     TEDClass = "Melee",
     UnitName = "Swordsman",
-    script = "Stumpyscript.lua",
+    script = "Swordsmanscript.lua",
     
 --Unit limitations and properties
     Description = "A Fast Raider Unit",
