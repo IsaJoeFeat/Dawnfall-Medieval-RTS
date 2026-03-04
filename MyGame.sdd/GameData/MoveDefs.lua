@@ -16,6 +16,13 @@ local moveDefs 	=	 {
 		maxWaterDepth	=	10,
 		maxSlope		=	20,
 	},
+	{
+		name			=	"1x1",
+		footprintX		=	1,
+		footprintZ		=	1,
+		maxWaterDepth	=	10,
+		maxSlope		=	40,
+	},
 }
 
 return moveDefs
