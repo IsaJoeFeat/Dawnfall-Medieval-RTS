@@ -17,10 +17,10 @@ local Sounds = {
       rolloff = 0,
       dopplerscale = 0,
     },
-    ExampleSound = {
+    SwordHit = {
       --- some things you can do with this file
       --- can be either ogg or wav
-      file = "swordhit.wav",
+      file = "sounds/swordhit.wav",
       gain = 1,
       pitch = 1,
       dopplerscale = 1,
