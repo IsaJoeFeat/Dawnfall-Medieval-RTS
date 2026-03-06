@@ -22,7 +22,7 @@ local unitDef = {
     health = 150,
     autoHeal = 0,
     idleAutoHeal = 5,
-    corpse = "unit_dead_feature",
+    --corpse = "unit_dead_feature",
     explodeAs = "TINY_EXPLOSION",
     selfDestructAs = "TINY_EXPLOSION",
 
@@ -33,7 +33,7 @@ local unitDef = {
     turnRate = 500,
     turnInPlace = false,
     turnInPlaceAngleLimit = 45,
-    movementClass = "WHEELED2x2",
+    movementClass = "2x2",
     footprintX = 2,
     footprintZ = 2,
     maxSlope = 22,
