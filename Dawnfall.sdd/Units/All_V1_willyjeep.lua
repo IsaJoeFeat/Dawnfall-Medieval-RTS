@@ -1,0 +1,64 @@
+local unitName = "all_v1_willyjeep"
+
+local unitDef = {
+    -- Identification
+    name = "Willys Jeep",
+    description = "Fast Recon and Raiding Vehicle",
+    objectName = "Stumpy.s3o",
+    script = "Stumpyscript.lua",
+    buildPic = "buildpic_filename.png",
+    category = "LAND GROUNDSCOUT ALLIED T1 NOTSUB NOTAIR",
+    side = "Allies",
+    upright = false, -- true for Infantry, false for Tanks
+
+    -- Economy
+    buildCostMetal = 35,
+    buildCostEnergy = 400,
+    buildTime = 450,
+    builder = false,
+    workerTime = 0, -- Set if unit builds things
+
+    -- Combat & Health
+    health = 150,
+    autoHeal = 0,
+    idleAutoHeal = 5,
+    corpse = "unit_dead_feature",
+    explodeAs = "TINY_EXPLOSION",
+    selfDestructAs = "TINY_EXPLOSION",
+
+    -- Movement (Physics)
+    speed = 4.8,
+    maxAcc = 0.4,
+    maxDec = 0.5,
+    turnRate = 500,
+    turnInPlace = false,
+    turnInPlaceAngleLimit = 45,
+    movementClass = "WHEELED2x2",
+    footprintX = 2,
+    footprintZ = 2,
+    maxSlope = 22,
+    maxWaterDepth = 5,
+    leaveTracks = true,
+
+    -- Sensors & Stealth
+    losRadius = 650,
+    airLosRadius = 800,
+    radarRadius = 0.5,
+    sonarRadius = 0, -- Set for Subs/Corvettes
+
+    -- Hitbox
+    collisionVolumeOffsets = "0 0 0",
+    collisionVolumeScales = "20 20 30",
+    collisionVolumeType = "box",
+
+    -- Weapons
+    noChaseCategory = "AIR",
+    weapons = {
+        [1] = {
+            def = "BROWNING_M2_HB",
+            onlyTargetCategory = "LAND",
+        },
+    },
+}
+
+return lowerkeys({ [unitName] = unitDef })
