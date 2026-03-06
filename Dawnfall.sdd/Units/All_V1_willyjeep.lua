@@ -37,9 +37,8 @@ local unitDef = {
     Reclaimable = false,
 
     -- Movement (Physics)
-    speed = 4.8,
-    maxAcc = 0.4,
-    maxDec = 0.5,
+    Acceleration = 0.3,
+    BrakeRate = 0.2,
     turnRate = 500,
     turnInPlace = false,
     turnInPlaceAngleLimit = 45,
