@@ -7,7 +7,7 @@ local unitDef = {
     objectName = "Stumpy.s3o",
     script = "Stumpyscript.lua",
     buildPic = "buildpic_filename.png",
-    category = "LAND GROUNDSCOUT ALLIED T1 NOTSUB NOTAIR",
+    category = "LAND RAIDER NOTAIR NOTSUB LIGHT",
     side = "Allies",
     upright = false, -- true for Infantry, false for Tanks
 
@@ -43,7 +43,7 @@ local unitDef = {
     -- Sensors & Stealth
     losRadius = 650,
     airLosRadius = 800,
-    radarRadius = 0.5,
+    radarRadius = 0,
     sonarRadius = 0, -- Set for Subs/Corvettes
 
     -- Hitbox

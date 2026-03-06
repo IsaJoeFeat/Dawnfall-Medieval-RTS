@@ -3,7 +3,7 @@
 local sideData = {
 --also added this, wasnt oringally in tutorial but you can define factions here.
 	{
-		name = "Beefys",
+		name = "Allies",
 		startUnit = "commander",
 	},
 }
