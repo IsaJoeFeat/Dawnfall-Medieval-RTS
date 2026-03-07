@@ -51,6 +51,8 @@ buildoptions =
 	[[stumpy]],
 	[[all_v1_willyjeep]],
 	[[all_v1_cruisermk1]],
+	[[all_v1_m7priest]],
+	[[all_v1_engineertruck]],
 	[[flare]],
 	[[duron]],
 	},
