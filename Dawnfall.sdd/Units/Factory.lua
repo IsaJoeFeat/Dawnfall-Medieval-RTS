@@ -53,6 +53,7 @@ buildoptions =
 	[[all_v1_cruisermk1]],
 	[[all_v1_m7priest]],
 	[[all_v1_engineertruck]],
+	[[all_v1_bm13katyusha]],
 	[[flare]],
 	[[duron]],
 	},
