@@ -27,7 +27,6 @@ local unitDef = {
     selfDestructAs = "TINY_EXPLOSION",
 
 --Abilities
-    Builder = false,
     CanAttack = true,
     CanGuard = true,
     CanMove = true,

@@ -4,8 +4,8 @@ local unitDef = {
     -- Identification
     name = "Engineer Truck",
     description = "Lightly Armored Construction Vehicle",
-    objectName = "Stumpy.s3o",
-    script = "Stumpyscript.lua",
+    objectName = "Constructor1.s3o",
+    script = "constructorscript.lua",
     buildPic = "buildpic_filename.png",
     category = "LAND BUILDER NOTAIR NOTSUB LIGHT",
     side = "Allies",
@@ -15,7 +15,7 @@ local unitDef = {
     buildCostMetal = 35,
     buildCostEnergy = 400,
     buildTime = 450,
-    builder = false,
+    builder = true,
     workerTime = 0, -- Set if unit builds things
 
     -- Combat & Health
@@ -27,14 +27,15 @@ local unitDef = {
     selfDestructAs = "TINY_EXPLOSION",
 
 --Abilities
-    Builder = true,
-    CanAttack = false,
-    CanGuard = true,
-    CanMove = true,
-    CanPatrol = false,
-    CanStop = true,
-    LeaveTracks = true,
-    Reclaimable = false,
+    CanAttack = 1,
+    CanGuard = 1,
+    CanMove = 1,
+    CanPatrol = 1,
+    CanStop = 1,
+    LeaveTracks = 0,
+    Reclaimable = 0,
+    canSelfDestruct = 1,
+    repairable = 1,
 
 --Building
 ShowNanoSpray = true,
@@ -79,10 +80,7 @@ buildoptions =
     -- Weapons
     noChaseCategory = "AIR",
     weapons = {
-        [1] = {
-            def = "BROWNING_M2_HB",
-            onlyTargetCategory = "LAND",
-        },
+       
     },
 }
 
